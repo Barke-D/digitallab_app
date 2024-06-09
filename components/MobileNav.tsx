@@ -44,9 +44,9 @@ const MobileNav = () => {
                 alt={item.name}
                 width={20}
                 height={20}
-                className={`${isActive ? "" : "invert-colors"}`}
+                className={`${isActive ? "invert-0" : "invert-colors"}`}
               />
-              <p className={`${isActive ? "base-bold" : "base-medium"}`}>
+              <p className={`${isActive ? "text-lg" : "base-medium"}`}>
                 {item.name}
               </p>
             </Link>

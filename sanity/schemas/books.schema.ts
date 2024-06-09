@@ -45,7 +45,7 @@ const Books = {
       type: "string",
       validation: (Rule: any) => Rule.required(),
       options: {
-        list: ["stb", "tg", "coding", "fictions", "other"],
+        list: ["stb", "coding", "international test", "other"],
       },
     },
   ],

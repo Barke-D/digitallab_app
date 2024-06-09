@@ -50,7 +50,7 @@ const ThreeDCardDemo = ({
             src={image}
             height="1000"
             width="500"
-            className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            className="h-96 w-full object-fill rounded-xl group-hover/card:shadow-xl"
             alt="thumbnail"
           />
         </CardItem>

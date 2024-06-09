@@ -26,29 +26,6 @@ export const navLinks = [
   },
 ];
 
-// export const heroBanner = [
-//   {
-//     id: "1",
-//     imgUrl: "/hero-banner.png",
-//   },
-//   {
-//     id: "2",
-//     imgUrl: "/photo10.jpg",
-//   },
-//   {
-//     id: "3",
-//     imgUrl: "/photo3.jpg",
-//   },
-//   {
-//     id: "4",
-//     imgUrl: "/photo4.jpg",
-//   },
-//   {
-//     id: "5",
-//     imgUrl: "/photo5.jpg",
-//   },
-// ];
-
 export const heroBanner = [
   {
     id: "1",
