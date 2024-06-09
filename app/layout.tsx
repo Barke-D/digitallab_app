@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description:
     "This is a modern Digital website where you can access numerous educational books, including SAT's coding Books, Exam and work sheets, Art Books, And different fiction books for free online in one platform.",
   icons: {
-    icon: "/assets/logo.svg",
+    icon: "/logo.svg",
   },
   other: {
     "theme-color": "#0d1117",

@@ -5,11 +5,6 @@ export const navLinks = [
     link: "/",
   },
   {
-    name: "About",
-    imgUrl: "/icons/about.svg",
-    link: "#about",
-  },
-  {
     name: "Books",
     imgUrl: "/icons/books.svg",
     link: "/books",

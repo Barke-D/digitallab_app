@@ -3,8 +3,8 @@ import { ContainerScroll } from "./ui/ContainerScrollAnimation";
 
 const About = () => {
   return (
-    <div>
-      <ContainerScroll children titleComponent="container" />
+    <div id="about" className="w-full flex items-center justify-center">
+      <ContainerScroll children titleComponent="" />
     </div>
   );
 };

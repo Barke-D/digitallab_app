@@ -2,6 +2,7 @@ import React from "react";
 import { Meteors } from "./ui/Meteors";
 import Image from "next/image";
 import { Facebook, Instagram, Mail, Twitter } from "lucide-react";
+import Link from "next/link";
 
 export function MeteorsDemo({
   name,
@@ -27,21 +28,24 @@ export function MeteorsDemo({
             />
           </div>
 
-          <h1 className="font-bold text-xl text-white mb-4 relative z-50">
+          <h1 className="font-extrabold text-xl text-black pt-2  mb-4 relative z-50">
             {name}
           </h1>
 
-          <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
+          <p className="font-normal text-base text-slate-500 mb-4 relative z-50 text-justify">
             {description}
           </p>
           <div className="w-full flex flex-row gap-3 items-center justify-between">
             <div className="flex flex-row gap-3">
-              <Instagram
-                className="cursor-pointer"
-                href="https://instagram.com/"
-              />
-              <Facebook className="cursor-pointer" />
-              <Twitter className="cursor-pointer" />
+              <Link href="https://instagram.com/ermiyas130">
+                <Instagram className="cursor-pointer" />
+              </Link>
+              <Link href="https://facebook.com/ermiyas130">
+                <Facebook className="cursor-pointer" />
+              </Link>
+              <Link href="https://twitter.com/ermiyas130">
+                <Twitter className="cursor-pointer" />
+              </Link>
             </div>
             <button className="flex gap-3 border px-4 py-1 rounded-lg  border-gray-500 text-gray-300">
               <Mail /> Email
